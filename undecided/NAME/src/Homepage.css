@@ -86,13 +86,13 @@ nav {
   text-align: center;
 }
 #header {
-  height: 500px;
   border-bottom: 2px solid white;
   padding-bottom: 0px;
   width: 100dvw;
-  overflow-y: none;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 h2 {
   color: #00ff94;
@@ -135,8 +135,15 @@ span {
   width: 30%;
   border: 2px dashed #00ff94;
 }
-.project {
-  margin-left: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
+#cardholder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.card {
+  height: 15dvh;
+  width: 15dvw;
+  margin: 3dvw;
+  border: 2px solid white;
 }

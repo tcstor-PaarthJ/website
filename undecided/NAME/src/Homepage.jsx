@@ -1,45 +1,47 @@
 import "react";
 import "./Homepage.css";
 import globe from "./globe.png";
-
+import Nav from "./components/nav.jsx";
 function Homepage() {
   return (
     <>
-   
-      <div></div>
       <div id="header">
-        <h1 className="top">Paarth Joshi</h1>
-        <div className="top" id="text">
-          <div>
+        <div id="title">
+          <h1 className="top">Paarth Joshi</h1>
+          <div className="top" id="text">
             {" "}
-            I am learning piano and have started practicing for a couple months.
-            I play tennis and am ready to compete in a USTA tournament coming
-            up. I have been playing for about a year and a half now and I have
-            made significant improvement in my game.
+            Rising coder and innovator
           </div>
         </div>
+        <Nav />
       </div>
 
-      <div id="globediv">
-        <img id="globe" src={globe} />
 
-        <br />
-      </div>
 
-      <h2 id="h2p">Projects</h2>
-      <div id="project">
-        <div id="tictactoe1">
-          <h3 className="project">Tic Tac Toe</h3>
-          <div className="project">
+
+      <div id="cardholder">
+        <div className="card">
+          <h3>Tic Tac Toe</h3>
+          <p>
             A game is completed in which two players take turns seeking to draw
             three O's or three X's in a row, column or diagonal in nine
             coordinate spaces.
-          </div>
-          <h3 className="project">Flappy Bird</h3>
-          <div className="project">
+          </p>
+        </div>
+        <div className="card">
+          <h3>Flappy Bird</h3>
+          <p>
             A game where you have to click the screem in order to help a bird
-            survive past certain obstacles by going through an opening.{" "}
-          </div>
+            survive past certain obstacles by going through an opening.
+          </p>
+        </div>
+        <div className="card">
+          <h3>Stock Simulator</h3>
+          <p>
+              A game where you can learn the basics about investing and 
+              simulate the real stock market, with different stocks, bonds, 
+              and mutual funds.
+          </p>
         </div>
       </div>
       {/* I was a part of the Madrona Math Field Day Team for 3 years. We have won 2nd place in 7th      

@@ -1,18 +1,18 @@
 function Nav(){
     return (
-        <nav>
+      <nav>
         <ul>
-            <li>
-            <a href="#home">Home</a>
-            </li>
-            <li>
-            <a href="#projects">Projects</a>
-            </li>
-            <li>
+          <li>
             <a href="#aboutme">About Me</a>
-            </li>
+          </li>
+          <li>
+            <a href="#collaborations">Collaborations</a>
+          </li>
+          <li>
+            <a href="#workwithme">Work With Me</a>
+          </li>
         </ul>
-        </nav>
+      </nav>
     );
     
 }

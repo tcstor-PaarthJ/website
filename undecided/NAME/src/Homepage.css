@@ -7,17 +7,6 @@ html {
 body {
   background-color: rgba(0, 0, 0, 0);
 }
-h1 {
-  text-align: center;
-  font-size: 150px;
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  display: block;
-  color: #0077ff;
-  padding: 10px;
-}
 
 ul {
   list-style-type: none;
@@ -30,18 +19,17 @@ li {
   padding: 0px;
   margin: 0px;
 }
+nav {
+  display: flex;
+  flex-direction: row;
+}
+nav a {
+  flex: 1;
 
-li a {
-  display: inline;
   color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-nav {
-  padding: 14px 16px;
-  background-color: #334c57;
 }
 
 #tictactoe {
@@ -142,8 +130,56 @@ span {
   justify-content: space-around;
 }
 .card {
-  height: 15dvh;
-  width: 15dvw;
+  /* height: 15dvh;
+  width: 15dvw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  width: 12vw;
   margin: 3dvw;
   border: 2px solid white;
+  padding: 0 2rem 0.5rem 2rem;
+}
+.card p {
+  margin-top: 0;
+}
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 150px;
+}
+h3 {
+  padding-top: none;
+  padding-bottom: 0.1rem;
+}
+li a {
+  font-size: xx-large;
+  margin: 1vw;
+  padding: 2vw 3vw 2vw 3vw;
+  border: 1px solid white;
+  border-radius: 15%;
+}
+#nav-wrapper {
+  display: flex;
+  padding: 2vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6vw;
+}
+nav {
+  padding: 2vw;
+}
+#title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vw;
+}
+#text {
+  padding: 1vw;
 }

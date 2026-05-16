@@ -13,11 +13,10 @@ function Homepage() {
             Rising coder and innovator
           </div>
         </div>
-        <Nav />
+        <div id="nav-wrapper">
+          <Nav />
+        </div>
       </div>
-
-
-
 
       <div id="cardholder">
         <div className="card">
@@ -38,9 +37,9 @@ function Homepage() {
         <div className="card">
           <h3>Stock Simulator</h3>
           <p>
-              A game where you can learn the basics about investing and 
-              simulate the real stock market, with different stocks, bonds, 
-              and mutual funds.
+            A game where you can learn the basics about investing and simulate
+            the real stock market, with different stocks, bonds, and mutual
+            funds.
           </p>
         </div>
       </div>

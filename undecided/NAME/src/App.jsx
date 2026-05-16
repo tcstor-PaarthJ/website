@@ -7,11 +7,19 @@ import Nav from "./components/nav.jsx";
 function App() {
 
   return (
-    <div className="wrapper">
-      {/* <Nav /> */}
-      <Homepage />
-    </div>
-  )
+    <>
+      <head>
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+      </head>
+      <div className="wrapper">
+        {/* <Nav /> */}
+        <Homepage />
+      </div>
+    </>
+  );
 }
 
 export default App

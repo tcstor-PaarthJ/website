@@ -17,12 +17,14 @@ function Homepage() {
           <Nav />
         </div>
       </div>
-
+      <div id="title-wrapper">
+        <h2>Projects</h2>
+      </div>
       <div id="cardholder">
         <div className="card">
           <h3>Tic Tac Toe</h3>
           <p>
-            A game is completed in which two players take turns seeking to draw
+            A game is played in which two players take turns drawing
             three O's or three X's in a row, column or diagonal in nine
             coordinate spaces.
           </p>
@@ -30,7 +32,7 @@ function Homepage() {
         <div className="card">
           <h3>Flappy Bird</h3>
           <p>
-            A game where you have to click the screem in order to help a bird
+            A game where you have to click the screen in order to help a bird
             survive past certain obstacles by going through an opening.
           </p>
         </div>

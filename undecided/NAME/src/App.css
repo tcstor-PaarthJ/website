@@ -4,6 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+html {
+  background-image: url("assets/bg.jpg");
+  background-size: cover;
+}
 
 .logo {
   height: 6rem;
@@ -32,8 +36,6 @@
     animation: logo-spin infinite 20s linear;
   }
 }
-
-
 
 .read-the-docs {
   color: #888;

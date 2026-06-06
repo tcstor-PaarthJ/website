@@ -3,13 +3,19 @@ function Nav(){
       <nav>
         <ul>
           <li>
-            <a href="#aboutme">About Me</a>
+            <a className="tinted-glass" href="#aboutme">
+              About Me
+            </a>
           </li>
           <li>
-            <a href="#collaborations">Collaborations</a>
+            <a className="tinted-glass" href="#projects">
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#workwithme">Work With Me</a>
+            <a className="tinted-glass" href="#workwithme">
+              Work With Me
+            </a>
           </li>
         </ul>
       </nav>

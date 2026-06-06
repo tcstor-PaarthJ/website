@@ -19,18 +19,7 @@ li {
   padding: 0px;
   margin: 0px;
 }
-nav {
-  display: flex;
-  flex-direction: row;
-}
-nav a {
-  flex: 1;
 
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
 #tictactoe {
   height: 30%;
@@ -142,6 +131,9 @@ span {
 .card p {
   margin-top: 0;
 }
+.tinted-glass {
+  background-color: rgba(175, 174, 194, 0.336);
+}
 h1 {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
@@ -161,16 +153,23 @@ li a {
   border: 1px solid white;
   border-radius: 10%;
 }
-#nav-wrapper {
-  display: flex;
+
+nav {
   padding: 2vw;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 6vw;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
-nav {
-  padding: 2vw;
+nav a {
+  flex: 1;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
 }
 #title {
   display: flex;

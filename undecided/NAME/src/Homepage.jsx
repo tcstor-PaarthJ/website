@@ -1,10 +1,10 @@
 import "react";
 import "./Homepage.css";
 import globe from "./globe.png";
-import Nav from "./components/nav.jsx";
+import Nav from "./components/Nav.jsx";
 function Homepage() {
   return (
-    <>
+    <div className="homepage">
       <div id="header">
         <div id="title">
           <h1 className="top">Paarth Joshi</h1>
@@ -46,26 +46,23 @@ function Homepage() {
       <div>
         <h2>About me</h2>
       </div>
-      <div className="card tinted-glass" id="aboutme">
-        I was a part of the Madrona Math Field Day Team for 3 years. We have won
-        2nd place in 7th grade, where I then advanced to the county level
-        competition and won first overall. In 8th grade, we won 3rd place and I
-        advanced to the county level, and we got 2 medals, silver in Problem
-        Solving and bronze in Conceptual Understanding. I play tennis and am
-        ready to compete in a USTA tournament coming up. I have been playing for
-        about a year and a half now and I have made significant improvement in
-        my game.
-      </div>
-      <div>
-        <h2>Work with me</h2>
+      <div className="tinted-glass"  id="aboutme">
+        I am a rising junior at Torrance High School and I want to pursue a
+        career in STEM. I am a co-founder of the Robotics Club at our school,
+        and we are aiming to compete in VEX Robotics VRC competitions this
+        upcoming year. I have competed in various math competitions over middle
+        school and high school, and I have competed in the LACOE Math Field Day
+        for 4 years, in which I have got 2 bronze medals as a freshman and 2
+        silver medals as a sophomore. I recently started doing science olympiad,
+        and we are aiming to go to invitational competions in the winter/spring.
+        I am playing tennis for my school as well, and I made varisty my
+        sophomore year. I have become the junior captain of the tennis team and
+        am excited to meet new people.
       </div>
 
-      <div className="card tinted-glass" id="workwithme">
-        <p>Here are my socials</p>
-      </div>
       {/*  FIGMA */}
       <script src="script.js"></script>
-    </>
+    </div>
   );
 }
 export default Homepage;

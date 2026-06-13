@@ -55,6 +55,10 @@ li {
 }
 #aboutme {
   display: inline-block;
+  width: 75dvw;
+}
+.homepage {
+  flex: 1;
 }
 .top {
   vertical-align: middle;
@@ -78,7 +82,7 @@ h2 {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  text-align: left;
+  text-align: center;
   margin-top: 200px;
   
 }

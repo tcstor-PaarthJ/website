@@ -56,6 +56,10 @@ li {
 #aboutme {
   display: inline-block;
   width: 75dvw;
+  height: 8em
+}
+#aboutme p {
+  margin: 10px;
 }
 .homepage {
   flex: 1;
@@ -131,6 +135,7 @@ span {
   border: 2px solid white;
   padding: 0 2rem 0.5rem 2rem;
   font-size: x-large;
+  border-radius: 10px;
 }
 .card p {
   margin-top: 0;
@@ -155,7 +160,7 @@ li a {
   margin: 1vw;
   padding: 1.5vw 3vw 1.5vw 3vw;
   border: 1px solid white;
-  border-radius: 10%;
+  border-radius: 20px;
 }
 
 nav {
@@ -173,7 +178,7 @@ nav a {
   flex: 1;
   color: #ffffff;
   text-align: center;
-  text-decoration: none;
+
 }
 #title {
   display: flex;

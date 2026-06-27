@@ -47,7 +47,7 @@ function Homepage() {
         <h2>About me</h2>
       </div>
 
-      <div className="card tinted-glass" id="aboutme">
+      <div className="tinted-glass" id="aboutme">
         <p>
           I am a rising junior at Torrance High School and I want to pursue a
           career in STEM. I am a co-founder of the Robotics Club at our school,

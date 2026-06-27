@@ -3,17 +3,17 @@ function Nav(){
       <nav>
         <ul>
           <li>
-            <a className="tinted-glass" href="#aboutme">
+            <a className="tinted-glass nav-button" href="#aboutme">
               About Me
             </a>
           </li>
           <li>
-            <a className="tinted-glass" href="#projects">
+            <a className="tinted-glass nav-button" href="#projects">
               Projects
             </a>
           </li>
           <li>
-            <a className="tinted-glass" href="#workwithme">
+            <a className="tinted-glass nav-button" href="#workwithme">
               Work With Me
             </a>
           </li>

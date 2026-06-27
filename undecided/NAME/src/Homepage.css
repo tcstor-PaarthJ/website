@@ -56,10 +56,15 @@ li {
 #aboutme {
   display: inline-block;
   width: 75dvw;
-  height: 8em
+  height: 8em;
+  border: 2px solid white;
+  border-radius: 10px;
+
 }
 #aboutme p {
   margin: 10px;
+  text-align: center;
+  font-size: 1.05em;
 }
 .homepage {
   flex: 1;
@@ -133,12 +138,13 @@ span {
   height: 10vw;
   margin: 3dvw;
   border: 2px solid white;
-  padding: 0 2rem 0.5rem 2rem;
+  padding: 2rem 2rem 1rem 2rem;
   font-size: x-large;
   border-radius: 10px;
 }
 .card p {
   margin-top: 0;
+  font-size: 0.8em;
 }
 .tinted-glass {
   background-color: rgba(175, 174, 194, 0.336);
@@ -149,11 +155,12 @@ h1 {
   font-weight: 600;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  font-size: 150px;
+  font-size: 7em;
 }
 h3 {
-  padding-top: none;
-  padding-bottom: 0.1rem;
+  margin-top: 0em;
+  margin-bottom: 0.3em;
+  min-width: 20vw;
 }
 li a {
   font-size: xx-large;
@@ -179,6 +186,9 @@ nav a {
   color: #ffffff;
   text-align: center;
 
+}
+.nav-button {
+  font-size: 1.5em
 }
 #title {
   display: flex;

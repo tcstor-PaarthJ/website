@@ -2,6 +2,7 @@ import "react";
 import "./Homepage.css";
 import globe from "./globe.png";
 import Nav from "./components/Nav.jsx";
+import "./animations.css"
 function Homepage() {
   return (
     <div className="homepage">
@@ -20,21 +21,21 @@ function Homepage() {
         <h2>Projects</h2>
       </div>
       <div id="cardholder">
-        <div className="project-card card tinted-glass">
+        <div className="project-card card holographic-card tinted-glass">
           <h3>Tic Tac Toe</h3>
           <p>
             A game is played in which two players take turns drawing three O's
             or three X's in a row, column or diagonal in nine coordinate spaces.
           </p>
         </div>
-        <div className="project-card card tinted-glass">
+        <div className="project-card holographic-card card tinted-glass">
           <h3>Flappy Bird</h3>
           <p>
             A game where you have to click the screen in order to help a bird
             survive past certain obstacles by going through an opening.
           </p>
         </div>
-        <div className="project-card card tinted-glass">
+        <div className="project-card card holographic-card tinted-glass">
           <h3>Stock Simulator</h3>
           <p>
             A game where you can learn the basics about investing and simulate

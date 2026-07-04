@@ -1,0 +1,16 @@
+.footer-link {
+
+    margin: 0 8rem 0 8rem;
+
+}
+a {
+    color: white;  
+}
+svg {
+    margin: 2rem 9.25rem 0 9.5rem;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
